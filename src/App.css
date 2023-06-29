@@ -1,0 +1,53 @@
+.bg-img {
+  background-image: url("https://images.ctfassets.net/ooa29xqb8tix/3PHS4tm6Xw2BEZ1WWIjwnk/24fa4d723fb257dcf480b2e487afef42/React_Hooks_handbook_200x150_cover_new.svg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-color {
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #436076 0%, #09203f 74%);
+}
+.workBg {
+  background-image: url("./assets//13399743_Multitasking_2.jpg");
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+
+  background-color: rgba(18, 11, 18, 0.484);
+  background-blend-mode: multiply;
+}
+.react-tabs__tab-list {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center;
+  margin: 10px;
+}
+
+.react-tabs__tab {
+  cursor: pointer !important;
+  padding: 10px !important;
+  background-color: transparent !important;
+}
+
+.react-tabs__tab--selected {
+  border: 0px !important;
+  background-color: #00adb5 !important;
+  color: white;
+  border-radius: 8px 0 8px 0 !important;
+  transition: background-color ease 1s !important;
+}
+.react-tabs__tab:focus,
+.react-tabs__tab--selected:focus {
+  outline: none;
+  border-color: none !important;
+}
+
+.scroll-to-top {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #05bdf0 !important;
+}

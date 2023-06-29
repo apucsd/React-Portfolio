@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "projectImg": "https://i.ibb.co/cXNyWdQ/Screenshot-2023-06-28-185204.jpg",
+      "title": "BabelLingua",
+      "used_tools": ["React", "StripeJs", "Node.js", "JWT token", "MongoDB"],
+      "Livelink": "https://babellingua-f05e9.web.app/",
+      "githublink_client": "https://github.com/apucsd/BabelLingua-Client",
+      "githublink_server": "https://github.com/apucsd/BabelLingua-Server",
+      "category": "mern"
+    },
+    {
+      "projectImg": "https://i.ibb.co/9g3xJyH/Screenshot-2023-06-28-192404.jpg",
+      "title": "Toy BaZaar",
+      "used_tools": ["React", "Firebase", "Node.js", "MongoDB"],
+      "Livelink": "https://toy-bazaar.web.app/",
+      "githublink_client": "https://github.com/apucsd/Toy-BaZaar",
+      "githublink_server": "https://github.com/apucsd/Toy-BaZaar-Server",
+      "category": "mern"
+    },
+    {
+      "projectImg": "https://i.ibb.co/gv3FBz4/Screenshot-2023-06-18-221031.jpg",
+      "title": "Kitchen Master",
+      "used_tools": [" React", "React-Router", "Firebase", "TailwindCSS"],
+      "Livelink": "https://kitchen-master-284e7.web.app/",
+      "githublink_client": "https://github.com/apucsd/Kitchen-Master",
+      "category": "react"
+    },
+    {
+      "projectImg": "https://i.ibb.co/k8wRPn7/Screenshot-2023-06-18-221905.jpg",
+      "title": "IndeedJobs",
+      "used_tools": [" React", "React-Router", "Firebase", "TailwindCSS"],
+      "Livelink": "https://stellular-sprite-cf2f65.netlify.app/",
+      "githublink_client": "https://github.com/apucsd/IndeedJob",
+      "category": "react"
+    },
+    {
+      "projectImg": "https://i.ibb.co/ZKC2n9c/Screenshot-2023-06-18-223739.jpg",
+      "title": "Code Hub",
+      "used_tools": ["javascript", "TailwindCSS", "daisyui", "Sweetalert2"],
+      "Livelink": "https://poetic-fudge-86e63a.netlify.app/",
+      "githublink_client": "https://github.com/apucsd/Code-Hub",
+      "category": "javascript"
+    },
+    {
+      "projectImg": "https://i.ibb.co/8NHBkrD/Screenshot-2023-06-18-224500.jpg",
+      "title": "Ai Universe Hub",
+      "used_tools": ["javascript", "Bootstrap"],
+      "Livelink": "https://splendid-rabanadas-c0aeed.netlify.app/",
+      "githublink_client": "https://github.com/apucsd/Ai-Universe-Hub",
+      "category": "javascript"
+    },
+    {
+      "projectImg": "https://i.ibb.co/9ZK8Njg/Screenshot-2023-06-26-205524.jpg",
+      "title": "G3 Architect",
+      "used_tools": ["Html", "Css"],
+      "Livelink": "https://main--stellular-melba-e2d50f.netlify.app/",
+      "githublink_client": "https://github.com/apucsd/g3-architects",
+      "category": "others"
+    },
+    {
+      "projectImg": "https://i.ibb.co/1r6qSj9/Screenshot-2023-06-26-200443.jpg",
+      "title": "Basic Calculator",
+      "used_tools": ["javascript", "Html", "Css"],
+      "Livelink": "https://genuine-marzipan-31da67.netlify.app/",
+      "githublink_client": "https://github.com/apucsd/Calculator-Projects",
+      "category": "javascript"
+    }
+  ]
+}
