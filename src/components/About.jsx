@@ -18,9 +18,9 @@ const About = () => {
               a passionate web developer with a keen eye for detail, and a drive
               to create elegant, efficient, and user-friendly web app. With over
               1+ years of experience in web development, I've honed my skills in
-              a variety of technologies, including ReactJs,
+              a variety of technologies, including ReactJs, NextJs,
               Nodejs,ExpressJs,Firebase, Javascript es6+ and MongoDb. Now I am
-              learning <b>NextJs</b>.
+              learning <b>Redux</b>.
             </p>
 
             <p className="mt-4 text-xl text-gray-600 md:mt-8">

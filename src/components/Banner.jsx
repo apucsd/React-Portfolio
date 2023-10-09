@@ -5,7 +5,7 @@ import resume from "/Apu_Sutra_Dhar's_Resume.pdf";
 
 const Banner = () => {
   return (
-    <div id="home" className="w-full md:h-[100vh] md:mt-0 -mt-16 mb-10">
+    <div id="home" className="w-full md:h-[100vh] md:mt-10 -mt-16  mb-10">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex justify-around md:flex-row flex-col-reverse gap-4 items-center">
           <div className="flex justify-start ">
@@ -41,6 +41,16 @@ const Banner = () => {
                     Resume <FaDownload />
                   </a>
                 </button>
+                <br />
+                <br />
+                <br />
+                <br />
+                <div className="quote">
+                  <span className="quote-mark">&lt;</span>The expert in anything
+                  was once a beginner.<span className="quote-mark">&gt;</span>
+                  <br />
+                  <span className="font-bold ">- Helen Hayes</span>
+                </div>
               </div>
             </div>
           </div>
@@ -54,7 +64,10 @@ const Banner = () => {
 
             <img
               className="filter brightness-125 w-[] mx-auto relative -bottom-20 xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110"
-              src="https://i.ibb.co/2Fhfmvs/My-project-1-3.png"
+              src="https://i.ibb.co/ky7QfLr/Apu-sutra-dhar-1.png"
+              loading="lazy"
+              width="800"
+              height="400"
               alt=""
             />
           </div>

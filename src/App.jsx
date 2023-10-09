@@ -22,7 +22,7 @@ function App() {
   const handleShow = () => {
     setShowProfile(!showProfile);
   };
-  console.log(showProfile);
+
   return (
     <div className="w-full font-primaryFont">
       <div

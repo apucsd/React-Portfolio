@@ -14,7 +14,26 @@
 ::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
-body {
+/* body {
   background-image: linear-gradient(315deg, #415f76 0%, #09203f 74%);
   color: white;
+} */
+
+.dark-theme {
+  background-color: rgb(25, 24, 24);
+  color: white;
+  transition: all 1s linear;
+}
+.light-theme {
+  background-color: #09203f;
+  transition: all 1s linear;
+}
+.quote {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.quote-mark {
+  color: #ff6200;
 }

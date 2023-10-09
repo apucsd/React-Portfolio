@@ -1,19 +1,23 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-scroll";
 const Navbar = () => {
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
   const toggleTheme = () => {
     setDark(!dark);
-    console.log(dark);
-    if (dark) {
-      document.querySelector("body").style.backgroundImage =
-        "linear-gradient(315deg, #00060b 0%, #000812 74%)";
-    } else {
-      document.querySelector("body").style.backgroundImage =
-        "linear-gradient(315deg, #415f76 0%, #09203f 74%)";
-    }
   };
+
+  useEffect(() => {
+    const body = document.querySelector("body");
+
+    if (dark) {
+      body.classList.add("dark-theme");
+      body.classList.remove("light-theme");
+    } else {
+      body.classList.remove("dark-theme");
+      body.classList.add("light-theme");
+    }
+  }, [dark]);
   return (
     <>
       <nav className="hidden h-[50px]  fixed z-20 top-0 px-4 py-4 lg:flex justify-center items-center p-4 bg-[#222831]  bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg  w-full">
@@ -167,10 +171,14 @@ const Navbar = () => {
           </li>
           <li>
             <button
-              className=" transition-all duration-1000 text-lg"
+              className="transition transform duration-700 text-lg"
               onClick={toggleTheme}
             >
-              {dark ? <FaMoon></FaMoon> : <FaSun></FaSun>}
+              {dark ? (
+                <FaSun className="sun-icon"></FaSun>
+              ) : (
+                <FaMoon className="sun-moon"></FaMoon>
+              )}
             </button>
           </li>
         </ul>

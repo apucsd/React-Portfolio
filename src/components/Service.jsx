@@ -78,7 +78,7 @@ const Service = () => {
 
           <p>
             I can make web application in to mobile responsive using css
-            framework like Bootstrap, react bootstrap and TailwindCSS .
+            framework like Bootstrap, react bootstrap and TailwindCSS
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

@@ -9,10 +9,12 @@ import {
   SiJavascript,
   SiLinkedin,
   SiMongodb,
+  SiNextdotjs,
   SiNodedotjs,
   SiReact,
   SiTailwindcss,
   SiTwitter,
+  SiTypescript,
 } from "react-icons/si";
 import { FaLanguage } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
@@ -25,7 +27,7 @@ const Profile = () => {
     >
       <img
         className="w-20 h-20 rounded-full mx-auto brightness-125"
-        src="https://i.ibb.co/WvW4mFs/222.png"
+        src="https://i.ibb.co/7Crghkp/Apu-sutra-dhar.png"
         alt=""
       />
 
@@ -35,6 +37,8 @@ const Profile = () => {
         <p>JavaScript</p>
         <div className="border-r-2"></div>
         <p>React</p>
+        <div className="border-r-2"></div>
+        <p>NextJs</p>
         <div className="border-r-2"></div>
         <p>Node</p>
         <div className="border-r-2"></div>
@@ -75,6 +79,14 @@ const Profile = () => {
           <li>
             <Slide>
               <p className="flex justify-between border-b py-3">
+                TypeScript
+                <SiTypescript className="text-2xl text-blue-500"></SiTypescript>
+              </p>
+            </Slide>
+          </li>
+          <li>
+            <Slide>
+              <p className="flex justify-between border-b py-3">
                 {" "}
                 TailwindCSS
                 <SiTailwindcss className="text-2xl text-blue-500"></SiTailwindcss>
@@ -94,6 +106,14 @@ const Profile = () => {
               <p className="flex justify-between border-b py-3">
                 React Js
                 <SiReact className="text-2xl text-blue-500"></SiReact>
+              </p>
+            </Slide>
+          </li>
+          <li>
+            <Slide>
+              <p className="flex justify-between border-b py-3">
+                Next Js
+                <SiNextdotjs className="text-2xl text-white"></SiNextdotjs>
               </p>
             </Slide>
           </li>
