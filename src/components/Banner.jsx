@@ -2,13 +2,18 @@
 import { FaDownload } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 import resume from "/Apu_Sutra_Dhar's_Resume.pdf";
+import { useScramble } from "use-scramble";
 
 const Banner = () => {
+  const { ref, replay } = useScramble({
+    text: "Apu Sutra Dhar",
+  });
+
   return (
     <div id="home" className="w-full md:h-[100vh] md:mt-10 -mt-16  mb-10">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="flex justify-around md:flex-row flex-col-reverse gap-4 items-center">
-          <div className="flex justify-start ">
+        <div className="flex justify-around md:flex-row flex-col-reverse gap-5 items-center">
+          <div className=" flex justify-start ">
             <div className="md:text-start text-center space-y-4 text-white">
               <h4
                 className="bg-white text-fuchsia-500 font-semibold p-2"
@@ -16,7 +21,12 @@ const Banner = () => {
               >
                 Hi 👋, I'm
               </h4>
-              <h2 className="md:text-5xl text-4xl font-semibold text-[#00ADB5] uppercase">
+              <h2
+                ref={ref}
+                onMouseOver={replay}
+                onFocus={replay}
+                className="md:text-4xl text-3xl text-end  font-semibold text-[#00ADB5] uppercase"
+              >
                 Apu Sutra Dhar
               </h2>
               <div className="text-yellow-400 text-end">
@@ -45,11 +55,13 @@ const Banner = () => {
                 <br />
                 <br />
                 <br />
-                <div className="quote">
+                <div className="quote text-sm whitespace-nowrap">
                   <span className="quote-mark">&lt;</span>The expert in anything
                   was once a beginner.<span className="quote-mark">&gt;</span>
                   <br />
-                  <span className="font-bold ">- Helen Hayes</span>
+                  <span className="font-bold mt-3 inline-block">
+                    - Helen Hayes
+                  </span>
                 </div>
               </div>
             </div>
@@ -64,7 +76,7 @@ const Banner = () => {
 
             <img
               className="filter brightness-125 w-[] mx-auto relative -bottom-20 xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110"
-              src="https://i.ibb.co/ky7QfLr/Apu-sutra-dhar-1.png"
+              src="https://i.ibb.co/VMCh8LK/me.png"
               loading="lazy"
               width="800"
               height="400"

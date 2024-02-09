@@ -12,6 +12,7 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiReact,
+  SiRedux,
   SiTailwindcss,
   SiTwitter,
   SiTypescript,
@@ -26,7 +27,7 @@ const Profile = () => {
       className="relative text-md md:p-4 px-10 pt-10 text-center  h-[100vh] md:w-[270px] w-full   text-white"
     >
       <img
-        className="w-20 h-20 rounded-full mx-auto brightness-125"
+        className="w-20 h-20 rounded-full mx-auto ring-1 ring-[#00ADB5] brightness-125"
         src="https://i.ibb.co/7Crghkp/Apu-sutra-dhar.png"
         alt=""
       />
@@ -47,7 +48,7 @@ const Profile = () => {
         <p>MongoDB</p>
       </div>
       <div className=" text-start mt-auto">
-        <ul className="py-4 px-4 mt-6 overflow-y-auto overflow-hidden md:h-[270px] h-[320px] duration-300 ease-in-out">
+        <ul className="py-4 px-4 mt-6 overflow-y-auto overflow-hidden h-[45vh] duration-300 ease-in-out">
           <li className="text-start md:text-lg text-xl font-semibold my-3 uppercase">
             <Slide>Skills</Slide>
           </li>
@@ -114,6 +115,14 @@ const Profile = () => {
               <p className="flex justify-between border-b py-3">
                 Next Js
                 <SiNextdotjs className="text-2xl text-white"></SiNextdotjs>
+              </p>
+            </Slide>
+          </li>
+          <li>
+            <Slide>
+              <p className="flex justify-between border-b py-3">
+                Redux
+                <SiRedux className="text-2xl text-fuchsia-400"></SiRedux>
               </p>
             </Slide>
           </li>

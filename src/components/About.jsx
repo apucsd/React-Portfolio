@@ -12,6 +12,7 @@ const About = () => {
             <h2 className="text-3xl font-bold leading-tight text-[#00ADB5] sm:text-4xl lg:text-5xl">
               About Me 🚩
             </h2>
+
             <p className="max-w-lg mt-3 text-sm leading-relaxed text-[#a9b8d2] md:mt-8">
               Hello guys!! I am <b>Apu Sutra Dhar</b> from Bangladesh. Currently
               I'm a Diploma student of CST (Computer Science & Technology). I'm
