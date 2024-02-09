@@ -19,6 +19,7 @@ import {
 } from "react-icons/si";
 import { FaLanguage } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
+import me from "../assets/Apu-sutra-dhar.png";
 
 const Profile = () => {
   return (
@@ -28,7 +29,7 @@ const Profile = () => {
     >
       <img
         className="w-20 h-20 rounded-full mx-auto ring-1 ring-[#00ADB5] brightness-125"
-        src="https://i.ibb.co/7Crghkp/Apu-sutra-dhar.png"
+        src={me}
         alt=""
       />
 

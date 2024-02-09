@@ -1,6 +1,7 @@
 import { FaCode, FaLink } from "react-icons/fa";
-
+import "lazysizes";
 /* eslint-disable react/prop-types */
+
 const ProjectCard = ({ project }) => {
   return (
     <div>
@@ -10,10 +11,10 @@ const ProjectCard = ({ project }) => {
       >
         <div className="overflow-hidden transition-all rounded-t-md">
           <img
-            className="object-cover h-52 rounded-t-md w-full duration-500 hover:scale-110 hover:shadow-xl cursor-pointer"
+            className="object-cover h-52 rounded-t-md lazyload w-full duration-500 hover:scale-110 hover:shadow-xl cursor-pointer"
             src={project.projectImg}
             alt=""
-            loading="lazy"
+            data-sizes="auto"
           />
         </div>
         <div className="px-6 py-4">

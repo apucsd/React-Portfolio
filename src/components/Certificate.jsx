@@ -1,7 +1,7 @@
 const Certificate = () => {
   return (
     <section className=" ">
-      <div className="px-4 mx-auto sm:px-6 lg:px-8 mt-10">
+      <div className="px-4 mx-auto lg:px-8 mt-10">
         <h2 className="text-3xl font-bold leading-tight text-[#00ADB5] sm:text-4xl lg:text-5xl">
           Certificates 🚩
         </h2>
@@ -10,11 +10,11 @@ const Certificate = () => {
           showing I know my stuff.
         </p>
       </div>
-      <div className="container max-w-5xl px-4 py-12 mx-auto">
-        <div className="grid mx-4 sm:grid-cols-12">
+      <div className=" md:max-w-5xl w-full md:px-4 py-12 mx-auto">
+        <div className="grid md:mx-4 sm:grid-cols-12">
           <div className="col-span-12 sm:col-span-2"></div>
 
-          <div className="relative col-span-12 px-4 space-y-6 sm:col-span-9">
+          <div className="relative col-span-12 md:px-4 space-y-6 sm:col-span-9">
             <div className="col-span-12 space-y-3 relative px-4 sm:col-span-8 sm:space-y-3 sm:before:absolute sm:before:top-2 sm:before:bottom-0 sm:before:w-0.5 sm:before:-left-3 before:dark:bg-[#00ADB5]">
               <div className="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-4 sm:before:rounded-full sm:before:left-[-35px] sm:before:z-[1] before:dark:bg-[#00ADB5]">
                 <a href="https://drive.google.com/file/d/1an6OdpXVroSSQ9PrkcNdIZZatSMNaFE0/view?usp=sharing">
@@ -36,7 +36,7 @@ const Certificate = () => {
                       </div>
                     </div>
                     <div className="mt-6">
-                      <div className="mb-3 flex justify-between items-center">
+                      <div className="mb-3 text-xs md:text-sm flex justify-between items-center">
                         <p>Black Belt Certification (BB)</p>
                         <p>Batch - 7th</p>
                       </div>
@@ -65,7 +65,7 @@ const Certificate = () => {
                       </div>
                     </div>
                     <div className="mt-6">
-                      <div className="mb-3 flex justify-between items-center">
+                      <div className="mb-3 text-xs md:text-sm flex justify-between items-center">
                         <p>Complete Web Development</p>
                         <p>Batch - 7th</p>
                       </div>
@@ -94,7 +94,7 @@ const Certificate = () => {
                       </div>
                     </div>
                     <div className="mt-6">
-                      <div className="mb-3 flex justify-between items-center">
+                      <div className="mb-3 text-xs md:text-sm flex justify-between items-center">
                         <p>Next Level Web Development</p>
                         <p>Batch - 2nd</p>
                       </div>

@@ -14,7 +14,7 @@ import BottomNav from "../BottomNav";
 import Banner from "../Banner";
 import Certificate from "../Certificate";
 import Education from "../Education";
-
+import me from "../../assets/Apu-sutra-dhar.png";
 const MainLayout = () => {
   const [showProfile, setShowProfile] = useState(false);
   useEffect(() => {
@@ -32,7 +32,7 @@ const MainLayout = () => {
       >
         <label className="btn btn-ghost btn-circle avatar">
           <div className="w-10 rounded-full ring-4 ring-fuchsia-500 ring-opacity-100">
-            <img src="https://i.ibb.co/jbCPQ9W/IMG-20220407-WA0002-1-01.jpg" />
+            <img src={me} />
           </div>
         </label>
       </div>
