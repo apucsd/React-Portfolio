@@ -30,7 +30,7 @@ const Profile = () => {
       <img
         className="w-20 h-20 rounded-full mx-auto ring-1 ring-[#00ADB5] brightness-125"
         src={me}
-        alt=""
+        alt="me"
       />
 
       <h2 className="font-semibold my-2">Apu Sutra Dhar</h2>

@@ -19,9 +19,13 @@ const Service = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentStyle={{
+            background: "rgba(255, 255, 255, 0.06)",
+            backdropFilter: "blur(10px)",
+            color: "#fff",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  #00ADB5" }}
+          iconStyle={{ background: "#00ADB5", color: "#fff" }}
           icon={<FaLaptopCode />}
         >
           <h3 className="vertical-timeline-element-title text-3xl">
@@ -36,9 +40,13 @@ const Service = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentStyle={{
+            background: "rgba(255, 255, 255, 0.06)",
+            backdropFilter: "blur(10px)",
+            color: "#fff",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  #00ADB5" }}
+          iconStyle={{ background: "#00ADB5", color: "#fff" }}
           icon={<FaCode />}
         >
           <h3 className="vertical-timeline-element-title text-3xl">
@@ -51,9 +59,13 @@ const Service = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentStyle={{
+            background: "rgba(255, 255, 255, 0.06)",
+            backdropFilter: "blur(10px)",
+            color: "#fff",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  #00ADB5" }}
+          iconStyle={{ background: "#00ADB5", color: "#fff" }}
           icon={<FaAccessibleIcon />}
         >
           <h3 className="vertical-timeline-element-title text-3xl">
@@ -67,9 +79,13 @@ const Service = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentStyle={{
+            background: "rgba(255, 255, 255, 0.06)",
+            backdropFilter: "blur(10px)",
+            color: "#fff",
+          }}
+          contentArrowStyle={{ borderRight: "7px solid  #00ADB5" }}
+          iconStyle={{ background: "#00ADB5", color: "#fff" }}
           icon={<FaMobileAlt />}
         >
           <h3 className="vertical-timeline-element-title text-3xl">

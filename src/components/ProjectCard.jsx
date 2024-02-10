@@ -1,21 +1,22 @@
 import { FaCode, FaLink } from "react-icons/fa";
-import "lazysizes";
+import LazyLoad from "react-lazyload";
 /* eslint-disable react/prop-types */
 
 const ProjectCard = ({ project }) => {
   return (
-    <div>
+    <div data-aos="zoom-in">
       <div
         key={project._id}
         className="w-full  mx-auto transition-all group p-2 bg-[#222831] bg-opacity-20 backdrop-blur-lg rounded drop-shadow-lg project-card"
       >
         <div className="overflow-hidden transition-all rounded-t-md">
-          <img
-            className="object-cover h-52 rounded-t-md lazyload w-full duration-500 hover:scale-110 hover:shadow-xl cursor-pointer"
-            src={project.projectImg}
-            alt=""
-            data-sizes="auto"
-          />
+          <LazyLoad height={200} offset={100}>
+            <img
+              className="object-cover h-52 rounded-t-md w-full duration-300 hover:scale-105 hover:shadow-xl cursor-pointer"
+              src={project.projectImg}
+              alt="projects card"
+            />
+          </LazyLoad>
         </div>
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-[#00ADB5]">

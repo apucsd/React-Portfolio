@@ -2,6 +2,7 @@
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import ProjectCard from "./ProjectCard";
 import { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 
 const RecentWork = () => {
   const [projects, setProjects] = useState([]);
@@ -14,7 +15,7 @@ const RecentWork = () => {
 
   const fetchProjects = () => {
     fetch(
-      `https://my-portfolio-server-mocha.vercel.app/projects?page=${currentPage}&perPage=${projectsPerPage}`
+      `https://react-portfolio-server-kohl.vercel.app/projects?page=${currentPage}&perPage=${projectsPerPage}`
     )
       .then((res) => res.json())
       .then((data) => setProjects(data));
@@ -43,20 +44,37 @@ const RecentWork = () => {
           ))}
         </div>
         <div className="flex justify-end gap-3 mt-4">
-          <button
-            onClick={prevPage}
-            disabled={currentPage === 1}
-            className="px-4 py-2  text-black bg-[#00ADB5] hover:text-white transition-all shadow-2xl rounded-md"
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
           >
-            <FaArrowLeft></FaArrowLeft>
-          </button>
-          <button
-            onClick={nextPage}
-            disabled={projects.length < projectsPerPage}
-            className="px-4 py-2 text-black bg-[#00ADB5] hover:text-white transition-all shadow-2xl  rounded-md"
+            <button
+              onClick={prevPage}
+              disabled={currentPage === 1}
+              className="px-4 py-2  text-black bg-[#00ADB5] hover:text-white transition-all shadow-2xl rounded-md"
+            >
+              <FaArrowLeft></FaArrowLeft>
+            </button>
+          </Link>
+
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
           >
-            <FaArrowRight></FaArrowRight>
-          </button>
+            <button
+              onClick={nextPage}
+              disabled={projects.length < projectsPerPage}
+              className="px-4 py-2 text-black bg-[#00ADB5] hover:text-white transition-all shadow-2xl  rounded-md"
+            >
+              <FaArrowRight></FaArrowRight>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
