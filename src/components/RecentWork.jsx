@@ -15,7 +15,7 @@ const RecentWork = () => {
 
   const fetchProjects = () => {
     fetch(
-      `https://react-portfolio-server-kohl.vercel.app/projects?page=${currentPage}&perPage=${projectsPerPage}`
+      `https://my-portfolio-server-vert-nine.vercel.app/projects?page=${currentPage}&perPage=${projectsPerPage}`
     )
       .then((res) => res.json())
       .then((data) => setProjects(data));

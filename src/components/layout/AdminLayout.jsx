@@ -14,7 +14,7 @@ const AdminLayout = () => {
     console.log(data);
     data.projectImg = projectImg;
     if (projectImg) {
-      fetch("https://react-portfolio-server-kohl.vercel.app/projects", {
+      fetch("https://my-portfolio-server-vert-nine.vercel.app/projects", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
