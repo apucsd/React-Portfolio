@@ -33,7 +33,7 @@ const RecentWork = () => {
   return (
     <div id="projects" className="my-10 p-5">
       <h2 className="text-3xl my-5 font-bold leading-tight text-[#00ADB5] sm:text-4xl lg:text-5xl">
-        Projects 🚩
+        Projects
       </h2>
       <div className="grid grid-cols-1  md:grid-cols-2 gap-5">
         {currentProjects.map((project) => (

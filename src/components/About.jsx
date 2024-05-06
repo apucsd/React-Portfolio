@@ -3,6 +3,7 @@ import animLog from "../assets/webDev.json";
 import Lottie from "lottie-react";
 import GitHubCalendar from "react-github-calendar";
 /* eslint-disable react/no-unescaped-entities */
+
 const About = () => {
   return (
     <section id="about" className="py-10 overflow-hidden md:py-10">
@@ -10,7 +11,7 @@ const About = () => {
         <div className="grid items-center grid-cols-1 md:grid-cols-2">
           <div>
             <h2 className="text-3xl font-bold leading-tight text-[#00ADB5] sm:text-4xl lg:text-5xl">
-              About Me 🚩
+              About Me
             </h2>
 
             <p className="max-w-lg mt-3 text-sm leading-relaxed text-[#a9b8d2] md:mt-8">
@@ -21,7 +22,7 @@ const About = () => {
               1+ years of experience in web development, I've honed my skills in
               a variety of technologies, including ReactJs, Redux, NextJs,
               Nodejs, ExpressJs, Firebase, Javascript es6+ and MongoDb. Now I am
-              learning <b>React Native</b>.
+              looking for a Carer opportunity.
             </p>
 
             <p className="mt-4 text-xl text-gray-600 md:mt-8">

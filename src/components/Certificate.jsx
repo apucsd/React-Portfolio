@@ -3,7 +3,7 @@ const Certificate = () => {
     <section className=" ">
       <div className="px-4 mx-auto lg:px-8 mt-10">
         <h2 className="text-3xl font-bold leading-tight text-[#00ADB5] sm:text-4xl lg:text-5xl">
-          Certificates 🚩
+          Certificates
         </h2>
         <p className="max-w-[60ch] mt-4">
           Been a web developer since 2022, got two certificates to prove it,

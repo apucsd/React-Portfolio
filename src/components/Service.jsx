@@ -1,9 +1,4 @@
-import {
-  FaAccessibleIcon,
-  FaCode,
-  FaLaptopCode,
-  FaMobileAlt,
-} from "react-icons/fa";
+import { FaLaptop, FaCode, FaLaptopCode, FaMobileAlt } from "react-icons/fa";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -14,7 +9,7 @@ const Service = () => {
   return (
     <div id="service">
       <h2 className="text-3xl ms-8 my-4 font-bold leading-tight text-[#00ADB5] sm:text-4xl lg:text-5xl">
-        Services 🚩
+        Services
       </h2>
       <VerticalTimeline>
         <VerticalTimelineElement
@@ -66,7 +61,7 @@ const Service = () => {
           }}
           contentArrowStyle={{ borderRight: "7px solid  #00ADB5" }}
           iconStyle={{ background: "#00ADB5", color: "#fff" }}
-          icon={<FaAccessibleIcon />}
+          icon={<FaLaptop />}
         >
           <h3 className="vertical-timeline-element-title text-3xl">
             Convert UI / UX To Website

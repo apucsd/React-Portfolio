@@ -30,7 +30,7 @@ const MainLayout = () => {
     setShowProfile(!showProfile);
   };
   return (
-    <div className="w-full font-primaryFont">
+    <div className="w-full font-primaryFont ">
       <div
         onClick={handleShow}
         className="fixed bottom-16 left-4 z-20 md:hidden"

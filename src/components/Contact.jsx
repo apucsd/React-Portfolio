@@ -40,7 +40,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="p-6 mr-2 sm:rounded-lg text-white">
               <h2 className="text-3xl font-bold  text-[#00ADB5] sm:text-4xl lg:text-5xl">
-                Get In Touch 🚩
+                Get In Touch
               </h2>
               <p className="text-normal text-lg font-medium mt-2">
                 Fill in the form to start a conversation

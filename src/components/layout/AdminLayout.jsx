@@ -77,7 +77,7 @@ const AdminLayout = () => {
   return (
     <div className="bg-[#001D6D] h-full text-black pb-20">
       <h2 className="text-3xl font-bold leading-tight text-center py-10 text-[#00ADB5] sm:text-4xl lg:text-5xl">
-        Add New Projects🚩
+        Add New Projects
       </h2>
       <Link to={"/"}>
         {" "}

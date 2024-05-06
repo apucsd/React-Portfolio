@@ -1,16 +1,9 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import {
-  FaCogs,
-  FaExternalLinkAlt,
-  FaGithub,
-  FaReact,
-  FaServer,
-} from "react-icons/fa";
+import { FaCogs, FaExternalLinkAlt, FaGithub, FaServer } from "react-icons/fa";
 const ProjectCard = ({
   title,
   description,
-  projectImg,
   githublink_client,
   githublink_server,
   livelink,
