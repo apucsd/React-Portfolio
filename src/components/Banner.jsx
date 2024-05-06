@@ -3,9 +3,8 @@ import { FaDownload } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 import resume from "/Apu_Sutra_Dhar's_Resume.pdf";
 import { useScramble } from "use-scramble";
-import myPic from "../assets/me.png";
-import blob from "../assets/blob-shape.svg";
-import LazyLoad from "react-lazyload";
+
+import TechOrbit from "./TechOrbit";
 const Banner = () => {
   const { ref, replay } = useScramble({
     text: "Apu Sutra Dhar",
@@ -14,7 +13,7 @@ const Banner = () => {
   });
 
   return (
-    <div id="home" className="w-full md:h-[100vh]  -mt-16  mb-10">
+    <div id="home" className="w-full  md:h-[100vh] mb-10">
       <div className="px-4 mx-auto  lg:px-8 w-full md:max-w-7xl">
         <div className="flex md:flex-row flex-col-reverse gap-5 justify-center items-center">
           <div className=" flex justify-start">
@@ -37,10 +36,11 @@ const Banner = () => {
                 <Typewriter
                   options={{
                     strings: [
+                      "a MERN Developer",
+                      "a Nextjs Developer",
+                      "a React Developer",
                       "a Web Developer",
                       "a JavaScript Developer",
-                      "a React Developer",
-                      "a MERN Developer",
                     ],
                     autoStart: true,
                     loop: true,
@@ -70,22 +70,8 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="relative overflow-hidden">
-            <LazyLoad height={200} offset={100}>
-              <img
-                className="absolute mx-auto inset-x-0 bottom-10 z-0 -mb-32 -translate-x-1/2 left-1/2"
-                src={blob}
-                alt="blob"
-              />
-            </LazyLoad>
-
-            <LazyLoad height={200} offset={100}>
-              <img
-                className="filter  brightness-125 w-[] mx-auto relative -bottom-20 xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110"
-                src={myPic}
-                alt="my pic"
-              />
-            </LazyLoad>
+          <div>
+            <TechOrbit />
           </div>
         </div>
       </div>

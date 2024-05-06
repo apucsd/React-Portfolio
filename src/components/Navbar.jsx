@@ -65,6 +65,36 @@ const Navbar = () => {
               About
             </Link>
           </li>
+
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              stroke="currentColor"
+              className="w-4 h-4 current-fill"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+              />
+            </svg>
+          </li>
+          <li>
+            <Link
+              className="text-sm  hover:text-gray-500 cursor-pointer"
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Projects
+            </Link>
+          </li>
           <li>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -94,38 +124,7 @@ const Navbar = () => {
               Service
             </Link>
           </li>
-          <li className=""></li>
-          <li className="">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              className="w-4 h-4 current-fill"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
-              />
-            </svg>
-          </li>
           <li>
-            <Link
-              className="text-sm  hover:text-gray-500 cursor-pointer"
-              activeClass="active"
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Projects
-            </Link>
-          </li>
-
-          <li className="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -154,7 +153,7 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
-          <li className="">
+          <li>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -183,7 +182,7 @@ const Navbar = () => {
               )}
             </button>
           </li>
-          <li className="">
+          <li>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -201,7 +200,6 @@ const Navbar = () => {
           </li>
           <li>
             <button
-              className=""
               onClick={() => document.getElementById("my_modal_3").showModal()}
             >
               <FaKey></FaKey>

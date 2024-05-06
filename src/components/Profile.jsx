@@ -40,6 +40,8 @@ const Profile = () => {
         <div className="border-r-2"></div>
         <p>React</p>
         <div className="border-r-2"></div>
+        <p>Redux</p>
+        <div className="border-r-2"></div>
         <p>NextJs</p>
         <div className="border-r-2"></div>
         <p>Node</p>

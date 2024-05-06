@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 import animLog from "../assets/webDev.json";
 import Lottie from "lottie-react";
-
+import GitHubCalendar from "react-github-calendar";
 /* eslint-disable react/no-unescaped-entities */
 const About = () => {
   return (
@@ -19,9 +19,9 @@ const About = () => {
               a passionate web developer with a keen eye for detail, and a drive
               to create elegant, efficient, and user-friendly web app. With over
               1+ years of experience in web development, I've honed my skills in
-              a variety of technologies, including ReactJs, NextJs,
-              Nodejs,ExpressJs,Firebase, Javascript es6+ and MongoDb. Now I am
-              learning <b>Redux</b>.
+              a variety of technologies, including ReactJs, Redux, NextJs,
+              Nodejs, ExpressJs, Firebase, Javascript es6+ and MongoDb. Now I am
+              learning <b>React Native</b>.
             </p>
 
             <p className="mt-4 text-xl text-gray-600 md:mt-8">
@@ -42,6 +42,16 @@ const About = () => {
           <div>
             <Lottie animationData={animLog} />
           </div>
+        </div>
+        <div className=" bg-[#172D4A] rounded md:w-[100%] mx-auto p-5">
+          <GitHubCalendar
+            style={{
+              width: "100%",
+              margin: "auto",
+              objectFit: "inherit",
+            }}
+            username="apucsd"
+          />
         </div>
       </div>
     </section>

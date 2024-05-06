@@ -18,7 +18,12 @@ import me from "../../assets/Apu-sutra-dhar.png";
 const MainLayout = () => {
   const [showProfile, setShowProfile] = useState(false);
   useEffect(() => {
-    AOS.init({});
+    const timer = setTimeout(() => {
+      AOS.init({
+        once: false,
+      });
+    }, 1000); // Adjust the delay time as needed
+    return () => clearTimeout(timer);
   }, []);
 
   const handleShow = () => {

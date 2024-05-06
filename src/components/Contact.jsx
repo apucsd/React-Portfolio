@@ -96,7 +96,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex items-center mt-2  ">
+              <div className="flex items-center mt-2 ">
                 <svg
                   fill="none"
                   stroke="currentColor"
