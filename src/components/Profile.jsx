@@ -74,7 +74,6 @@ const Profile = () => {
           <li>
             <Slide>
               <p className="flex justify-between border-b py-3">
-                {" "}
                 JavaScript
                 <SiJavascript className="text-2xl text-yellow-500"></SiJavascript>
               </p>
@@ -91,7 +90,6 @@ const Profile = () => {
           <li>
             <Slide>
               <p className="flex justify-between border-b py-3">
-                {" "}
                 TailwindCSS
                 <SiTailwindcss className="text-2xl text-blue-500"></SiTailwindcss>
               </p>
@@ -132,7 +130,6 @@ const Profile = () => {
           <li>
             <Slide>
               <p className="flex justify-between border-b py-3">
-                {" "}
                 Firebase
                 <SiFirebase className="text-2xl text-yellow-500"></SiFirebase>
               </p>
@@ -170,7 +167,6 @@ const Profile = () => {
           <li>
             <Slide>
               <p className="flex justify-between border-b py-3">
-                {" "}
                 Bengali
                 <FaLanguage className="text-2xl text-orange-500"></FaLanguage>
               </p>

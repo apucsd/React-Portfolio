@@ -13,7 +13,10 @@ const Banner = () => {
   });
 
   return (
-    <div id="home" className="mt-10 h-screen flex justify-center items-center">
+    <div
+      id="home"
+      className="mt-10 mb-14 h-screen flex justify-center items-center"
+    >
       <div className="px-4 mx-auto  lg:px-8 w-full md:max-w-7xl">
         <div className="flex md:flex-row flex-col-reverse gap-5 justify-center items-center">
           <div className=" flex justify-start">
@@ -46,7 +49,7 @@ const Banner = () => {
                     loop: true,
                   }}
                 />
-                <button className="bg-[#00ADB5] hover:bg-[#268386] text-white text-sm py-2 mt-2 px-4 ms-2 shadow-xl rounded">
+                <button className="bg-[#00ADB5] hover:bg-[#268386] text-white text-sm py-2 mt-2 px-4 md:ms-2 shadow-xl rounded">
                   <a
                     href={resume}
                     download={resume}
